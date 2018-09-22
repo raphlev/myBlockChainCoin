@@ -1,3 +1,5 @@
+// Example node.js server app using http js package to create a web server (like apache without apache !)
+
 const { createServer } = require('http');
 
 const server = createServer((request, response) => {
