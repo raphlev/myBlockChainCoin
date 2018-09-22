@@ -12,11 +12,11 @@ In the ``src/`` directory you'll find two versions. Each correspond to a video o
 * v3: Added multiple transactions & mining rewards ([video](https://youtu.be/fRV6cGXVQ4I))
 
 
-Prepare Environnement:
+Prepare Environnement: using Visual Studio Code ..
 https://code.visualstudio.com/docs/nodejs/nodejs-tutorial
 - Install Node.js with ntm: https://nodejs.org/en/download/  (Windows installer node-v8.12.0-x64.msi)
 
-Install Crypto-ja :
+Install Crypto-js :
 npm install --save crypto-js
 
 GITHUB:
