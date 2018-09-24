@@ -1,0 +1,167 @@
+PS Z:\Symfony\Code\myBlockChainCoin\src> node main-v3-1.js
+
+ New Blockchain...
+{
+    "chain": [
+        {
+            "previousHash": "0",
+            "timestamp": 1483228800000,
+            "transactions": [],
+            "hash": "92f0d54e0d1af3bfa68b792b5300cd68c797d0737327ddfe6891965b992eb2ca",
+            "nonce": 0
+        }
+    ],
+    "difficulty": 2,
+    "pendingTransactions": [],
+    "miningReward": 100
+}
+
+ Create first transaction address1 to address2
+{
+    "chain": [
+        {
+            "previousHash": "0",
+            "timestamp": 1483228800000,
+            "transactions": [],
+            "hash": "92f0d54e0d1af3bfa68b792b5300cd68c797d0737327ddfe6891965b992eb2ca",
+            "nonce": 0
+        }
+    ],
+    "difficulty": 2,
+    "pendingTransactions": [
+        {
+            "fromAddress": "address1",
+            "toAddress": "address2",
+            "amount": 100
+        }
+    ],
+    "miningReward": 100
+}
+
+ Create Second transaction address2 to address1
+{
+    "chain": [
+        {
+            "previousHash": "0",
+            "timestamp": 1483228800000,
+            "transactions": [],
+            "hash": "92f0d54e0d1af3bfa68b792b5300cd68c797d0737327ddfe6891965b992eb2ca",
+            "nonce": 0
+        }
+    ],
+    "difficulty": 2,
+    "pendingTransactions": [
+        {
+            "fromAddress": "address1",
+            "toAddress": "address2",
+            "amount": 100
+        },
+        {
+            "fromAddress": "address2",
+            "toAddress": "address1",
+            "amount": 50
+        }
+    ],
+    "miningReward": 100
+}
+
+ Starting the miner...
+BLOCK MINED: 00f5991b193b0f267d2f9b7f542587615ecf0c3b852f3755ddc4535dfaa5235e
+Block successfully mined!
+{
+    "chain": [
+        {
+            "previousHash": "0",
+            "timestamp": 1483228800000,
+            "transactions": [],
+            "hash": "92f0d54e0d1af3bfa68b792b5300cd68c797d0737327ddfe6891965b992eb2ca",
+            "nonce": 0
+        },
+        {
+            "previousHash": "92f0d54e0d1af3bfa68b792b5300cd68c797d0737327ddfe6891965b992eb2ca",
+            "timestamp": 1537783917482,
+            "transactions": [
+                {
+                    "fromAddress": "address1",
+                    "toAddress": "address2",
+                    "amount": 100
+                },
+                {
+                    "fromAddress": "address2",
+                    "toAddress": "address1",
+                    "amount": 50
+                }
+            ],
+            "hash": "00f5991b193b0f267d2f9b7f542587615ecf0c3b852f3755ddc4535dfaa5235e",
+            "nonce": 103
+        }
+    ],
+    "difficulty": 2,
+    "pendingTransactions": [
+        {
+            "fromAddress": null,
+            "toAddress": "xaviers-address",
+            "amount": 100
+        }
+    ],
+    "miningReward": 100
+}
+
+Balance of xavier is 0
+
+ Starting the miner again...
+BLOCK MINED: 00989a39491c21068204aaadefe4b784871fac2f106414e856d180551a3d6b74
+Block successfully mined!
+{
+    "chain": [
+        {
+            "previousHash": "0",
+            "timestamp": 1483228800000,
+            "transactions": [],
+            "hash": "92f0d54e0d1af3bfa68b792b5300cd68c797d0737327ddfe6891965b992eb2ca",
+            "nonce": 0
+        },
+        {
+            "previousHash": "92f0d54e0d1af3bfa68b792b5300cd68c797d0737327ddfe6891965b992eb2ca",
+            "timestamp": 1537783917482,
+            "transactions": [
+                {
+                    "fromAddress": "address1",
+                    "toAddress": "address2",
+                    "amount": 100
+                },
+                {
+                    "fromAddress": "address2",
+                    "toAddress": "address1",
+                    "amount": 50
+                }
+            ],
+            "hash": "00f5991b193b0f267d2f9b7f542587615ecf0c3b852f3755ddc4535dfaa5235e",
+            "nonce": 103
+        },
+        {
+            "previousHash": "00f5991b193b0f267d2f9b7f542587615ecf0c3b852f3755ddc4535dfaa5235e",
+            "timestamp": 1537783917497,
+            "transactions": [
+                {
+                    "fromAddress": null,
+                    "toAddress": "xaviers-address",
+                    "amount": 100
+                }
+            ],
+            "hash": "00989a39491c21068204aaadefe4b784871fac2f106414e856d180551a3d6b74",
+            "nonce": 104
+        }
+    ],
+    "difficulty": 2,
+    "pendingTransactions": [
+        {
+            "fromAddress": null,
+            "toAddress": "xaviers-address",
+            "amount": 100
+        }
+    ],
+    "miningReward": 100
+}
+
+Balance of xavier is 100
