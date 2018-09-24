@@ -1,4 +1,4 @@
-PS Z:\Symfony\Code\myBlockChainCoin\src> node main-v3-1.js
+PS ..\myBlockChainCoin\src> node main-v3-1.js
 
  New Blockchain...
 {
