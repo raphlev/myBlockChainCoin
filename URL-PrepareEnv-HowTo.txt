@@ -38,6 +38,7 @@ git remote add origin https://github.com/raphlev/myBlockChainCoin.git
 git push -u origin master
 
 Next commit:
+(git pull  -  if changes occur from github and not locally)
 git add .
 git commit -m "This is my xx commit!"
 git push -u origin master

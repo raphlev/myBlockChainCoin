@@ -1,4 +1,5 @@
 PS ..\Code\myBlockChainCoin\src> node main-v3-2.js
+PS ..\myBlockChainCoin\src> node main-v3-2.js
 
  New Blockchain...
 {
@@ -162,4 +163,8 @@ Block successfully mined!
     "miningReward": 100
 }
 
+<<<<<<< HEAD
 Balance of raphael is 200
+=======
+Balance of xavier is 200
+>>>>>>> d000b32e486555152676e2ebde6f9a7790e1f153
