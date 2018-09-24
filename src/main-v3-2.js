@@ -112,20 +112,20 @@ class Blockchain{
 }
 
 console.log('\n New Blockchain...');
-let savjeeCoin = new Blockchain();
-console.log(JSON.stringify(savjeeCoin, null, 4));
-savjeeCoin.createTransaction(new Transaction('address1', 'address2', 100));
+let raphlevCoin = new Blockchain();
+console.log(JSON.stringify(raphlevCoin, null, 4));
+raphlevCoin.createTransaction(new Transaction('address1', 'address2', 100));
 console.log('\n Create first transaction address1 to address2');
-console.log(JSON.stringify(savjeeCoin, null, 4));
-savjeeCoin.createTransaction(new Transaction('address2', 'address1', 50));
+console.log(JSON.stringify(raphlevCoin, null, 4));
+raphlevCoin.createTransaction(new Transaction('address2', 'address1', 50));
 console.log('\n Create Second transaction address2 to address1');
-console.log(JSON.stringify(savjeeCoin, null, 4));
+console.log(JSON.stringify(raphlevCoin, null, 4));
 console.log('\n Starting the miner...');
-savjeeCoin.minePendingTransactions('xaviers-address');
-console.log(JSON.stringify(savjeeCoin, null, 4));
-console.log('\nBalance of xavier is', savjeeCoin.getBalanceOfAddress('xaviers-address'));
+raphlevCoin.minePendingTransactions('raphaels-address');
+console.log(JSON.stringify(raphlevCoin, null, 4));
+console.log('\nBalance of raphael is', raphlevCoin.getBalanceOfAddress('raphaels-address'));
 
 console.log('\n Starting the miner again...');
-savjeeCoin.minePendingTransactions('xaviers-address');
-console.log(JSON.stringify(savjeeCoin, null, 4));
-console.log('\nBalance of xavier is', savjeeCoin.getBalanceOfAddress('xaviers-address'));
+raphlevCoin.minePendingTransactions('raphaels-address');
+console.log(JSON.stringify(raphlevCoin, null, 4));
+console.log('\nBalance of raphael is', raphlevCoin.getBalanceOfAddress('raphaels-address'));

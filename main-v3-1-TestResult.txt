@@ -1,4 +1,4 @@
-PS Z:\Symfony\Code\myBlockChainCoin\src> node main-v3-1.js
+PS ..\Code\myBlockChainCoin\src> node main-v3-1.js
 
  New Blockchain...
 {
@@ -100,14 +100,14 @@ Block successfully mined!
     "pendingTransactions": [
         {
             "fromAddress": null,
-            "toAddress": "xaviers-address",
+            "toAddress": "raphaels-address",
             "amount": 100
         }
     ],
     "miningReward": 100
 }
 
-Balance of xavier is 0
+Balance of raphael is 0
 
  Starting the miner again...
 BLOCK MINED: 00989a39491c21068204aaadefe4b784871fac2f106414e856d180551a3d6b74
@@ -145,7 +145,7 @@ Block successfully mined!
             "transactions": [
                 {
                     "fromAddress": null,
-                    "toAddress": "xaviers-address",
+                    "toAddress": "raphaels-address",
                     "amount": 100
                 }
             ],
@@ -157,11 +157,11 @@ Block successfully mined!
     "pendingTransactions": [
         {
             "fromAddress": null,
-            "toAddress": "xaviers-address",
+            "toAddress": "raphaels-address",
             "amount": 100
         }
     ],
     "miningReward": 100
 }
 
-Balance of xavier is 100
+Balance of raphael is 100
