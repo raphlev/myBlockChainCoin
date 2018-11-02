@@ -19,6 +19,7 @@ https://code.visualstudio.com/docs/nodejs/nodejs-tutorial
 
 Install Crypto-js :
 npm install --save crypto-js
+npm install --save elliptic
 
 Execute code:
 cd ~/src
